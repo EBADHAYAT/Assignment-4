@@ -1,0 +1,22 @@
+void main() {
+  var li=["Ali","Hameed","Bilal"," Ahmed","Haris"];
+  var rc =[59,78,49,80,60];
+  for (var i = 0; i<li.length; i++) {
+    Result(li[i], rc [i]);
+  }
+}
+void Result(var li,num rc){
+  print("Student Name ${li}");
+  print ("Percentage is ${rc}");
+  if (rc>=80 ){
+    print("Grade A");
+  }else if (rc>=60 && rc <80){
+    print("Grade B");
+  }
+else if (rc >= 50 && rc < 60){
+  print ("Grade C");
+}
+  else {
+    print ("Fail");
+  }
+}
